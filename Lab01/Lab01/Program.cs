@@ -6,7 +6,6 @@ using System.Threading.Tasks;
 
 namespace Lab01
 {
-    print 'hello world from Adam' 
     class Program
     {
         static void Main(string[] args)
@@ -14,3 +13,5 @@ namespace Lab01
         }
     }
 }
+
+print 'hello world from Adam' 
