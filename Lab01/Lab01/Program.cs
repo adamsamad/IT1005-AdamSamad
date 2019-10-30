@@ -14,4 +14,4 @@ namespace Lab01
     }
 }
 
-print 'hello world from Adam' 
+namespace 'hello world from Adam' 
