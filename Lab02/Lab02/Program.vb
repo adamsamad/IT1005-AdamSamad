@@ -1,26 +1,30 @@
 Imports System
 
 Module Program
-    Sub Main(args As String())
 
-    End Sub
-    Class Welcome2
-        {
-        //Main method begins execution of C# app
-        static.void Main()
+End Module
+Sub Main(args As String())
+
+End Sub
+
+Using System;
+
+Class Welcome2
+ {
+
+
+static.void Main()      //Main method begins execution of C# app
     {
-        Console.WriteLine("Hello World! From Adam")
-        Console.WriteLine ("Hello\nWorld!\nFrom\nAdam")
-        } // end Main
-        } // end class Welcome2
-       
+        Console.WriteLine("Hello World! From Adam");
+Console.WriteLine("Hello\nWorld!\nFrom\nAdam");
+     }      // end Main
+ }    End Class  
 
 
      // Displaying the multiplication of two numbers input from the keyboard.
-     Using System;
+     
 
         Class Multiplication
-
          {
           //Main method begins execution of C# app
           Static.void Main()
@@ -39,8 +43,8 @@ Module Program
 
             multiply= number1 * number2; // add numbers
 
-            ConsoleWriteLine($"Multiply id {multiply}"); // display multiply
-        } // end Main.
+            ConsoleWriteLine($"Multiply id {multiply}"); /* display multiply*/
+} /* end Main./*
 } // end class Multiplication 
     End Sub
 End Module
