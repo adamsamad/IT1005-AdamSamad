@@ -16,12 +16,9 @@ namespace Lab03
 
             else
             { }
-        }
-    }
-    class Program
-    {
-        static void Main(string[] args)
-        {
+
+
+
             int istrue = 10;
 
             if (istrue <= 60)
@@ -29,59 +26,75 @@ namespace Lab03
 
             else
                 Console.WriteLine("It is False");
-        }
-    }
-    class Program
-    {
-        static void Main(string[] args)
-        {
+
+
             Console.WriteLine("Input temperature in Fahrenheit: ");
-
+            
             double fahrenheit = Convert.ToDouble(Console.ReadLine());
-
             Console.WriteLine();
 
             double Celsius = (fahrenheit - 32d) * 5d / 9d;
-
+            Console.WriteLine("input any number");
             Console.WriteLine("Temperature in Celsius is {0}: ", Celsius);
-
+            
             Console.ReadLine();
+            
+            if (fahrenheit >= 90)
+            {
+                Console.WriteLine("It is hot");
+            }
 
-            if (fahrenheit >= 90) Console.WriteLine("It is hot");
-
-            if (fahrenheit <= 40)
+            
+            else _ = (fahrenheit <= 40);
+            {
+                
                 Console.WriteLine("It is cold");
-
-        }
-    }
-    class Program
-    {
-        static void Main(string[] args)
-        {
+            }
+            
+           
             int a = 1;
-
+            
             while (a < 11)
-
+            {
+                
                 Console.Write("Value: ");
+                 
+                Console.WriteLine(a);
 
-            Console.WriteLine(a);
+                a++;
+            }
 
-            a++;
-        }
-    }
-    class Program
-    {
-        static void Main(string[] args)
-        {
-            int b = 60;
+            int b=60;
+
 
             while (b >= 20)
+            { 
+                
 
                 Console.Write("Value: ");
+               
+                Console.WriteLine(b);
 
-            Console.WriteLine(b);
+                b -= 5;
+            }
+            int c=10;
 
-            b--;
+
+            while (c <= 20)
+            {
+                Console.Write("Value: ");
+
+                Console.WriteLine(c);
+
+                c += 2;
+            }
         }
+
     }
 }
+
+/* The if single-selection statement and the while repetition statement both perform
+an action when the condition is true or false. 
+If the condition is true, the if single-selection statement performs the action once,
+where instead the while repetition statement repeatedly performs the action until the
+while statement becomes false. */ 
