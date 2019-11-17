@@ -6,15 +6,23 @@ namespace Midterm
     {
         static void Main(string[] args)
         {
-            int keepLooping = 5;
+            /*int keepLooping = 5;
 
-            for(int i= 0; i != keepLooping; i += 6)
+            for (int i = 0; i != keepLooping; i += 6)
             {
                 Console.WriteLine("days in a week:{i}");
                 Console.WriteLine("months in a year: {keepLooping-i}");
             }
-        }
+            */
+            for (int i = 1; i <= 3; i++)
+            {
+                for (int j = 1; j <= 4; j++)
+                {
+                    Console.WriteLine("[]");
+                }
 
+            }
+        }      
     }
 }
 
