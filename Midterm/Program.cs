@@ -21,9 +21,10 @@ namespace Midterm
             int c = 2;
             while (c <= 128)
             {
-                Console.WriteLine(c);
+                
                 c *= 2;
-                Console.WriteLine("[]");
+                Console.WriteLine("[ "+ c + "]");
+               
                 
             }
         }
