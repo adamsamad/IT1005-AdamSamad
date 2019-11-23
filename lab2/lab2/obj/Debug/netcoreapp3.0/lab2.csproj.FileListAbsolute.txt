@@ -1,0 +1,11 @@
+C:\Users\adams\source\repos\IT1050-AdamSamad\lab2\lab2\bin\Debug\netcoreapp3.0\lab2.exe
+C:\Users\adams\source\repos\IT1050-AdamSamad\lab2\lab2\bin\Debug\netcoreapp3.0\lab2.deps.json
+C:\Users\adams\source\repos\IT1050-AdamSamad\lab2\lab2\bin\Debug\netcoreapp3.0\lab2.runtimeconfig.json
+C:\Users\adams\source\repos\IT1050-AdamSamad\lab2\lab2\bin\Debug\netcoreapp3.0\lab2.runtimeconfig.dev.json
+C:\Users\adams\source\repos\IT1050-AdamSamad\lab2\lab2\bin\Debug\netcoreapp3.0\lab2.dll
+C:\Users\adams\source\repos\IT1050-AdamSamad\lab2\lab2\bin\Debug\netcoreapp3.0\lab2.pdb
+C:\Users\adams\source\repos\IT1050-AdamSamad\lab2\lab2\obj\Debug\netcoreapp3.0\lab2.AssemblyInfoInputs.cache
+C:\Users\adams\source\repos\IT1050-AdamSamad\lab2\lab2\obj\Debug\netcoreapp3.0\lab2.AssemblyInfo.cs
+C:\Users\adams\source\repos\IT1050-AdamSamad\lab2\lab2\obj\Debug\netcoreapp3.0\lab2.dll
+C:\Users\adams\source\repos\IT1050-AdamSamad\lab2\lab2\obj\Debug\netcoreapp3.0\lab2.pdb
+C:\Users\adams\source\repos\IT1050-AdamSamad\lab2\lab2\obj\Debug\netcoreapp3.0\lab2.csprojAssemblyReference.cache
