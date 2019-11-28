@@ -16,19 +16,91 @@ namespace Midterm
                 i++;
                 Console.WriteLine(i);
             }
-            */
+            
             
             int c = 2;
             while (c <= 128)
             {
                 
                 c *= 2;
-                Console.WriteLine("[ "+ c + "]");
-               
-                
-            }
-        }
+                Console.WriteLine("[ "+ c + "]");    
+            } 
 
+
+            string j = ",";
+            int i;
+            for (i = 49; i >= 1; --i)
+            {
+                Console.Write(i);
+                if (i>=2)
+                {
+                    Console.Write(j);
+                }
+            }
+           
+
+
+            int i = 1;
+            while (i<=21)
+            {
+                {
+                    if ((i%2)==0)
+                    {
+                        Console.Write(" ");
+                    }
+                    else if ((i%2)!=0)
+                    {
+                        Console.Write(i);
+                    }
+                    i++;
+                }
+            }
+
+            
+
+
+
+
+
+
+
+            {
+                bool icyRain = !false; bool tornadoWarning = !false;
+
+                if (icyRain && tornadoWarning)
+                {
+                    Console.WriteLine("Let's Go Outside!");
+
+                }
+            }
+            
+
+            int numberoflayer = 5, Space, Number;
+            Console.WriteLine("Print pyramid");
+            for (int i = 1; i<=numberoflayer;i++)
+            {
+                for (Space = 1; Space <= (numberoflayer - i); Space++)
+                    Console.Write(" ");
+                for (Number = 1; Number <= i; Number++)
+                    Console.Write(Number);
+                for (Number = (i - 1); Number >= 1; Number--)
+                    Console.Write(Number);
+                    Console.WriteLine();
+                    Console.WriteLine();
+            }
+            */
+
+
+            int n = 8;
+            int i = 10; // initialize
+            do
+            {
+                Console.Write("*");
+                i++; // update!
+               
+            } while (i < n) ; // test condition
+
+        }
     }
 
 }   
