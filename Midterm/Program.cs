@@ -7,6 +7,9 @@ namespace Midterm
         static void Main(string[] args)
         {
             /*
+             
+
+
             int i = 12;
             Boolean keepLooping = true;
             while (keepLooping)
@@ -17,6 +20,9 @@ namespace Midterm
                 Console.WriteLine(i);
             }
             
+
+
+
             
             int c = 2;
             while (c <= 128)
@@ -25,6 +31,9 @@ namespace Midterm
                 c *= 2;
                 Console.WriteLine("[ "+ c + "]");    
             } 
+
+
+
 
 
             string j = ",";
@@ -37,7 +46,8 @@ namespace Midterm
                     Console.Write(j);
                 }
             }
-           
+
+
 
 
             int i = 1;
@@ -55,11 +65,22 @@ namespace Midterm
                     i++;
                 }
             }
-
             
 
 
 
+            int n = 8;
+            int i = 10; // initialize
+            do
+            {
+                Console.Write("*");
+                i++; // update!
+               
+            } while (i < n) ; // test condition
+            /*
+            The output for this code is "*"
+            Even if you used a while statement it wouldn't change the output
+            
 
 
 
@@ -75,6 +96,10 @@ namespace Midterm
             }
             
 
+
+
+
+
             int numberoflayer = 5, Space, Number;
             Console.WriteLine("Print pyramid");
             for (int i = 1; i<=numberoflayer;i++)
@@ -88,17 +113,10 @@ namespace Midterm
                     Console.WriteLine();
                     Console.WriteLine();
             }
-            */
 
 
-            int n = 8;
-            int i = 10; // initialize
-            do
-            {
-                Console.Write("*");
-                i++; // update!
-               
-            } while (i < n) ; // test condition
+
+            */   
 
         }
     }
